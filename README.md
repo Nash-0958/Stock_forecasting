@@ -1,4 +1,4 @@
-﻿# Stock_forecasting
+![image](https://github.com/user-attachments/assets/80889ee1-ef7d-41b2-a82c-ed9361f7b875)﻿# Stock_forecasting
 The stock forecasting application offers a robust solution for users interested in stock market predictions and data analysis. 
 By combining machine learning with interactive web technologies, it provides valuable insights into stock price trends and forecasts.
 
@@ -73,7 +73,12 @@ Deployment and Scaling
 
 Deploy the application to a cloud service for broader accessibility.
 Optimize performance and scalability for handling larger datasets and user traffic.
-Additional Features
 
+**Additional Features**
 Integrate real-time stock data updates.
 Implement user authentication and personalized settings.
+
+**User-interface of the app.**
+![Screenshot 2024-07-28 174415](https://github.com/user-attachments/assets/b0853f19-2cff-4a7f-89e4-28a66c89c005)
+![Screenshot 2024-07-28 174805](https://github.com/user-attachments/assets/7732d28f-a06b-4a66-80c7-ee97df4e5895)
+![Screenshot 2024-07-28 174821](https://github.com/user-attachments/assets/e73d8476-1166-4e6c-86e5-99132ef7b859)
