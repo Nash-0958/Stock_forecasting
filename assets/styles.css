@@ -1,0 +1,153 @@
+/* Custom font styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    color: #333;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* Custom text styling */
+#header-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(90deg, #FF6F61, #D83A56);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0;
+}
+
+/* Container for dropdown and button */
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Dropdown and button styles */
+#ticker-dropdown {
+    width: 300px;
+    margin-right: 10px;
+}
+
+#submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Loading spinner and message */
+#loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#loading-message {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Graph styling */
+#stock-forecast-graph {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 500px;
+}
+
+/* Error message styling */
+#error-message {
+    color: #ff4d4d;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+/* Hide the graph initially */
+.hidden {
+    display: none;
+}
+
+/* Show the graph */
+.visible {
+    display: block;
+}
+
+/* Existing styles... */
+
+/* Centering container for initial screen */
+.initial-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Move to top center after submission */
+.after-submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Hide the graph initially */
+.hidden {
+    display: none;
+}
+
+/* Show the graph */
+.visible {
+    display: block;
+}
+
+/* Logo styles */
+.logo {
+    font-size: 3em;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff6f61, #de4a8a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Search box and button styling */
+.dropdown-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Increase the size of the dropdown input */
+#ticker-dropdown {
+    width: 400px;  /* Adjust width as needed */
+    height: 50px;  /* Adjust height as needed */
+}
+
+/* Submit button styling */
+#submit-button {
+    margin-top: 10px;
+}
